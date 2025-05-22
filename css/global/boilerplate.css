@@ -1,0 +1,24 @@
+:root {
+  --clr-accent: hsl(75, 94%, 57%);
+  --clr-text: hsl(0, 0%, 100%);
+  --clr-primary400: hsl(0, 0%, 20%);
+  --clr-primary800: hsl(0, 0%, 12%);
+  --clr-primary900: hsl(0, 0%, 8%);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0;
+}

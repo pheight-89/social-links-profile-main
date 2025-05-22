@@ -1,0 +1,90 @@
+@import url("/css/global/boilerplate.css");
+@import url("/css/global/fonts.css");
+
+body {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 100vh;
+  place-items: center;
+  background-color: var(--clr-primary900);
+}
+.card-container {
+  width: 23.75rem;
+  height: 38.125rem;
+  border-radius: 1.25rem;
+  background-color: var(--clr-primary800);
+}
+
+.profile-picture {
+  text-align: center;
+  margin-bottom: 2.5rem;
+  padding-top: 2.5rem;
+}
+
+img {
+  border-radius: 100%;
+  height: 5.625rem;
+  width: 5.625rem;
+}
+
+#name {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--clr-text);
+  text-align: center;
+  margin-bottom: 1.25rem;
+}
+
+#location {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--clr-accent);
+  text-align: center;
+}
+
+#tagline {
+  color: var(--clr-text);
+  text-align: center;
+}
+
+.buttons {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 80%;
+}
+
+.btn {
+  margin-bottom: 1.25rem;
+  padding-top: 0.625rem;
+  height: 2.5rem;
+  border: none;
+  text-decoration: none;
+  text-align: center;
+  border-radius: 0.625rem;
+  background-color: var(--clr-primary400);
+}
+
+.btn:hover,
+.btn:focus {
+  background-color: var(--clr-accent);
+  color: var(--clr-primary900);
+}
+
+a {
+  text-decoration: none;
+  font-weight: 600;
+  color: var(--clr-text);
+}
+
+.attribution {
+  width: 23.75rem;
+  color: var(--clr-text);
+  font-size: 0.8em;
+  text-align: center;
+}
+
+.attribute-link {
+  color: var(--clr-accent);
+}
