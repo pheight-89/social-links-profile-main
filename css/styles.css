@@ -27,7 +27,7 @@ img {
   width: 5.625rem;
 }
 
-#name {
+.name {
   font-size: 1.25rem;
   font-weight: 700;
   color: var(--clr-text);
@@ -35,14 +35,14 @@ img {
   margin-bottom: 1.25rem;
 }
 
-#location {
+.location {
   font-size: 1rem;
   font-weight: 600;
   color: var(--clr-accent);
   text-align: center;
 }
 
-#tagline {
+.tagline {
   color: var(--clr-text);
   text-align: center;
 }
